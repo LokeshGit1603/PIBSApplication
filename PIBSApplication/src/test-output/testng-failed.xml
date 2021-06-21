@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PIBS suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Adjustment Report Test cases(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Adjustments_Report">
+        <methods>
+          <include name="AdjustReport"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.Adjustments_Report -->
+    </classes>
+  </test> <!-- Adjustment Report Test cases(failed) -->
+</suite> <!-- Failed suite [PIBS suite] -->

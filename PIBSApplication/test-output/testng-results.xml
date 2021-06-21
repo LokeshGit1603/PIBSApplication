@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="368" passed="360" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-15T10:50:48 IST" name="PIBS suite" finished-at="2021-06-15T12:12:13 IST" duration-ms="4884949">
+    <groups>
+    </groups>
+    <test started-at="2021-06-15T10:50:48 IST" name="Client Contract Listing Test cases" finished-at="2021-06-15T10:53:50 IST" duration-ms="182200">
+      <class name="testCases.Client_Contract_List">
+        <test-method signature="clicksetup()[pri:0, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:50:48 IST" name="clicksetup" finished-at="2021-06-15T10:50:48 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksetup -->
+        <test-method signature="clientcontract()[pri:1, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:50:48 IST" name="clientcontract" finished-at="2021-06-15T10:51:03 IST" duration-ms="14570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientcontract -->
+        <test-method signature="Selectid()[pri:2, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:03 IST" name="Selectid" finished-at="2021-06-15T10:51:08 IST" duration-ms="5606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectid -->
+        <test-method signature="selectlob()[pri:3, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:08 IST" name="selectlob" finished-at="2021-06-15T10:51:13 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlob -->
+        <test-method signature="selectdate()[pri:4, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:13 IST" name="selectdate" finished-at="2021-06-15T10:51:22 IST" duration-ms="8671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdate -->
+        <test-method signature="searchsubmit()[pri:5, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:22 IST" name="searchsubmit" finished-at="2021-06-15T10:51:24 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchsubmit -->
+        <test-method signature="searchresult()[pri:6, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:24 IST" name="searchresult" finished-at="2021-06-15T10:51:24 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchresult -->
+        <test-method signature="clearsearch()[pri:7, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:24 IST" name="clearsearch" finished-at="2021-06-15T10:51:26 IST" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearsearch -->
+        <test-method signature="sortcolumn()[pri:8, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:51:26 IST" name="sortcolumn" finished-at="2021-06-15T10:52:03 IST" duration-ms="37470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortcolumn -->
+        <test-method signature="ccpagination()[pri:9, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:52:03 IST" name="ccpagination" finished-at="2021-06-15T10:52:14 IST" duration-ms="10272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccpagination -->
+        <test-method signature="verifysearchresult()[pri:10, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:52:14 IST" name="verifysearchresult" finished-at="2021-06-15T10:52:36 IST" duration-ms="21825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchresult -->
+        <test-method signature="clientdetails()[pri:11, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:52:36 IST" name="clientdetails" finished-at="2021-06-15T10:52:36 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientdetails -->
+        <test-method signature="checkUnsave()[pri:12, instance:testCases.Client_Contract_List@17497425]" started-at="2021-06-15T10:52:36 IST" name="checkUnsave" finished-at="2021-06-15T10:53:50 IST" duration-ms="73828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnsave -->
+      </class> <!-- testCases.Client_Contract_List -->
+    </test> <!-- Client Contract Listing Test cases -->
+    <test started-at="2021-06-15T10:53:50 IST" name="Client Contract Details Test cases" finished-at="2021-06-15T10:57:37 IST" duration-ms="226393">
+      <class name="testCases.Client_Contract_Details">
+        <test-method signature="clientdetails()[pri:0, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:53:50 IST" name="clientdetails" finished-at="2021-06-15T10:53:57 IST" duration-ms="6830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientdetails -->
+        <test-method signature="verifyexpandcollapse()[pri:1, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:53:57 IST" name="verifyexpandcollapse" finished-at="2021-06-15T10:54:16 IST" duration-ms="18741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyexpandcollapse -->
+        <test-method signature="verifystatus()[pri:2, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:54:16 IST" name="verifystatus" finished-at="2021-06-15T10:54:16 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifystatus -->
+        <test-method signature="verifyPOvalidationmsg()[pri:3, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:54:16 IST" name="verifyPOvalidationmsg" finished-at="2021-06-15T10:54:26 IST" duration-ms="10399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPOvalidationmsg -->
+        <test-method signature="verifyAddPO()[pri:4, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:54:26 IST" name="verifyAddPO" finished-at="2021-06-15T10:54:52 IST" duration-ms="25318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPO -->
+        <test-method signature="VerifyPOSearch()[pri:5, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:54:52 IST" name="VerifyPOSearch" finished-at="2021-06-15T10:54:56 IST" duration-ms="4312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPOSearch -->
+        <test-method signature="VerifyEditPO()[pri:6, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:54:56 IST" name="VerifyEditPO" finished-at="2021-06-15T10:55:07 IST" duration-ms="10659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditPO -->
+        <test-method signature="deletePO()[pri:7, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:55:07 IST" name="deletePO" finished-at="2021-06-15T10:55:27 IST" duration-ms="20734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePO -->
+        <test-method signature="verifyPOSorting()[pri:8, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:55:27 IST" name="verifyPOSorting" finished-at="2021-06-15T10:55:34 IST" duration-ms="6415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPOSorting -->
+        <test-method signature="verifyYOSorting()[pri:9, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:55:34 IST" name="verifyYOSorting" finished-at="2021-06-15T10:55:36 IST" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYOSorting -->
+        <test-method signature="VerifyViewall()[pri:10, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:55:36 IST" name="VerifyViewall" finished-at="2021-06-15T10:55:40 IST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyViewall -->
+        <test-method signature="UpdateClientDetails()[pri:11, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:55:40 IST" name="UpdateClientDetails" finished-at="2021-06-15T10:56:02 IST" duration-ms="21126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateClientDetails -->
+        <test-method signature="SaveClientDetails()[pri:12, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:56:02 IST" name="SaveClientDetails" finished-at="2021-06-15T10:56:06 IST" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveClientDetails -->
+        <test-method signature="SubmitClientDetails()[pri:13, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:56:06 IST" name="SubmitClientDetails" finished-at="2021-06-15T10:56:16 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitClientDetails -->
+        <test-method signature="RejectClientDetails()[pri:14, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:56:16 IST" name="RejectClientDetails" finished-at="2021-06-15T10:56:31 IST" duration-ms="14895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectClientDetails -->
+        <test-method signature="CDBatchupdate()[pri:15, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:56:31 IST" name="CDBatchupdate" finished-at="2021-06-15T10:57:33 IST" duration-ms="62184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDBatchupdate -->
+        <test-method signature="CDCancel()[pri:16, instance:testCases.Client_Contract_Details@73e9cf30]" started-at="2021-06-15T10:57:33 IST" name="CDCancel" finished-at="2021-06-15T10:57:37 IST" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CDCancel -->
+      </class> <!-- testCases.Client_Contract_Details -->
+    </test> <!-- Client Contract Details Test cases -->
+    <test started-at="2021-06-15T10:57:37 IST" name="Client Pricing Schedule Listing Test cases" finished-at="2021-06-15T10:59:49 IST" duration-ms="131906">
+      <class name="testCases.Client_PricingSchedule_List">
+        <test-method signature="clicksetup()[pri:0, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:37 IST" name="clicksetup" finished-at="2021-06-15T10:57:37 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksetup -->
+        <test-method signature="clickCPSMenu()[pri:1, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:37 IST" name="clickCPSMenu" finished-at="2021-06-15T10:57:40 IST" duration-ms="3581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCPSMenu -->
+        <test-method signature="ExpandCollapse()[pri:2, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:40 IST" name="ExpandCollapse" finished-at="2021-06-15T10:57:51 IST" duration-ms="10541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExpandCollapse -->
+        <test-method signature="SelectClient()[pri:3, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:51 IST" name="SelectClient" finished-at="2021-06-15T10:57:53 IST" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectClient -->
+        <test-method signature="SelectLOB()[pri:4, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:53 IST" name="SelectLOB" finished-at="2021-06-15T10:57:55 IST" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLOB -->
+        <test-method signature="SelectType()[pri:5, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:55 IST" name="SelectType" finished-at="2021-06-15T10:57:57 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectType -->
+        <test-method signature="SelectStatus()[pri:6, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:57 IST" name="SelectStatus" finished-at="2021-06-15T10:57:59 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectStatus -->
+        <test-method signature="SelectStartDate()[pri:7, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:57:59 IST" name="SelectStartDate" finished-at="2021-06-15T10:58:02 IST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectStartDate -->
+        <test-method signature="SelectEndDate()[pri:8, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:58:02 IST" name="SelectEndDate" finished-at="2021-06-15T10:58:04 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEndDate -->
+        <test-method signature="ClickSearch()[pri:9, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:58:04 IST" name="ClickSearch" finished-at="2021-06-15T10:58:06 IST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearch -->
+        <test-method signature="Searchresult()[pri:10, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:58:06 IST" name="Searchresult" finished-at="2021-06-15T10:58:08 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchresult -->
+        <test-method signature="ClearSearch()[pri:11, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:58:08 IST" name="ClearSearch" finished-at="2021-06-15T10:58:16 IST" duration-ms="8401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearSearch -->
+        <test-method signature="SortColumn()[pri:12, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:58:16 IST" name="SortColumn" finished-at="2021-06-15T10:58:50 IST" duration-ms="33168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortColumn -->
+        <test-method signature="PaginationColumn()[pri:13, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:58:50 IST" name="PaginationColumn" finished-at="2021-06-15T10:59:00 IST" duration-ms="10295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaginationColumn -->
+        <test-method signature="VerifyAddNewvalidation()[pri:14, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:59:00 IST" name="VerifyAddNewvalidation" finished-at="2021-06-15T10:59:25 IST" duration-ms="25552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNewvalidation -->
+        <test-method signature="AddNew()[pri:15, instance:testCases.Client_PricingSchedule_List@2e6a8155]" started-at="2021-06-15T10:59:25 IST" name="AddNew" finished-at="2021-06-15T10:59:49 IST" duration-ms="23228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNew -->
+      </class> <!-- testCases.Client_PricingSchedule_List -->
+    </test> <!-- Client Pricing Schedule Listing Test cases -->
+    <test started-at="2021-06-15T10:59:49 IST" name="Client Pricing Schedule CLIN Detail Test cases" finished-at="2021-06-15T11:05:03 IST" duration-ms="314376">
+      <class name="testCases.Client_PricingScheduleCLIN_Detail">
+        <test-method signature="SearchRecord()[pri:1, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T10:59:49 IST" name="SearchRecord" finished-at="2021-06-15T11:00:08 IST" duration-ms="19740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRecord -->
+        <test-method signature="CPSDetailTC()[pri:0, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T10:59:49 IST" name="CPSDetailTC" finished-at="2021-06-15T10:59:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPSDetailTC -->
+        <test-method signature="GoDetails()[pri:2, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:00:08 IST" name="GoDetails" finished-at="2021-06-15T11:00:11 IST" duration-ms="2815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoDetails -->
+        <test-method signature="CLINExpand()[pri:3, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:00:11 IST" name="CLINExpand" finished-at="2021-06-15T11:00:22 IST" duration-ms="10312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLINExpand -->
+        <test-method signature="AddBillingClinValidation()[pri:4, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:00:22 IST" name="AddBillingClinValidation" finished-at="2021-06-15T11:00:55 IST" duration-ms="33283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddBillingClinValidation -->
+        <test-method signature="BillclinSearch()[pri:5, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:00:55 IST" name="BillclinSearch" finished-at="2021-06-15T11:00:57 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillclinSearch -->
+        <test-method signature="Editclinbill()[pri:6, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:00:57 IST" name="Editclinbill" finished-at="2021-06-15T11:01:10 IST" duration-ms="12565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editclinbill -->
+        <test-method signature="ValidateExcelImport()[pri:7, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:01:10 IST" name="ValidateExcelImport" finished-at="2021-06-15T11:01:20 IST" duration-ms="10295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateExcelImport -->
+        <test-method signature="VerifyDownload()[pri:8, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:01:20 IST" name="VerifyDownload" finished-at="2021-06-15T11:01:22 IST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDownload -->
+        <test-method signature="VerifyInvalidUploadTemplate()[pri:9, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:01:22 IST" name="VerifyInvalidUploadTemplate" finished-at="2021-06-15T11:01:28 IST" duration-ms="6190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUploadTemplate -->
+        <test-method signature="VerifyValidUploadTemplate()[pri:10, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:01:28 IST" name="VerifyValidUploadTemplate" finished-at="2021-06-15T11:01:45 IST" duration-ms="16562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidUploadTemplate -->
+        <test-method signature="SortBillingClinCode()[pri:11, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:01:45 IST" name="SortBillingClinCode" finished-at="2021-06-15T11:02:01 IST" duration-ms="16512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortBillingClinCode -->
+        <test-method signature="deleteuploadedClin()[pri:12, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:02:01 IST" name="deleteuploadedClin" finished-at="2021-06-15T11:02:28 IST" duration-ms="26988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuploadedClin -->
+        <test-method signature="SaveSatus()[pri:13, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:02:28 IST" name="SaveSatus" finished-at="2021-06-15T11:02:32 IST" duration-ms="4105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveSatus -->
+        <test-method signature="SubmitSatus()[pri:14, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:02:32 IST" name="SubmitSatus" finished-at="2021-06-15T11:02:41 IST" duration-ms="8319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitSatus -->
+        <test-method signature="RejectStatus()[pri:15, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:02:41 IST" name="RejectStatus" finished-at="2021-06-15T11:02:57 IST" duration-ms="16641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectStatus -->
+        <test-method signature="AuditHistory()[pri:16, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:02:57 IST" name="AuditHistory" finished-at="2021-06-15T11:03:06 IST" duration-ms="8310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditHistory -->
+        <test-method signature="CancelStatus()[pri:17, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:03:06 IST" name="CancelStatus" finished-at="2021-06-15T11:03:07 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelStatus -->
+        <test-method signature="CloneCreatedRecord()[pri:18, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:03:07 IST" name="CloneCreatedRecord" finished-at="2021-06-15T11:04:23 IST" duration-ms="76320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloneCreatedRecord -->
+        <test-method signature="DeleteMasterRecord()[pri:19, instance:testCases.Client_PricingScheduleCLIN_Detail@6c1a5b54]" started-at="2021-06-15T11:04:23 IST" name="DeleteMasterRecord" finished-at="2021-06-15T11:05:03 IST" duration-ms="40082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMasterRecord -->
+      </class> <!-- testCases.Client_PricingScheduleCLIN_Detail -->
+    </test> <!-- Client Pricing Schedule CLIN Detail Test cases -->
+    <test started-at="2021-06-15T11:05:03 IST" name="Client Pricing Schedule CPT Detail Test cases" finished-at="2021-06-15T11:10:10 IST" duration-ms="306961">
+      <class name="testCases.Client_PricingScheduleCPT_Detail">
+        <test-method signature="GoToAddCPT()[pri:0, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:05:03 IST" name="GoToAddCPT" finished-at="2021-06-15T11:05:23 IST" duration-ms="20296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToAddCPT -->
+        <test-method signature="GoToFormula()[pri:1, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:05:23 IST" name="GoToFormula" finished-at="2021-06-15T11:05:25 IST" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToFormula -->
+        <test-method signature="BothEmptyValidation()[pri:2, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:05:25 IST" name="BothEmptyValidation" finished-at="2021-06-15T11:05:28 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BothEmptyValidation -->
+        <test-method signature="ValueEmptyValidation()[pri:3, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:05:28 IST" name="ValueEmptyValidation" finished-at="2021-06-15T11:05:36 IST" duration-ms="8395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValueEmptyValidation -->
+        <test-method signature="FormulaEmptyValidation()[pri:4, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:05:36 IST" name="FormulaEmptyValidation" finished-at="2021-06-15T11:05:59 IST" duration-ms="22958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormulaEmptyValidation -->
+        <test-method signature="FormulaResultValidation()[pri:5, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:05:59 IST" name="FormulaResultValidation" finished-at="2021-06-15T11:06:03 IST" duration-ms="4239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormulaResultValidation -->
+        <test-method signature="AddFormulaToDetails()[pri:6, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:03 IST" name="AddFormulaToDetails" finished-at="2021-06-15T11:06:09 IST" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFormulaToDetails -->
+        <test-method signature="SaveCPT()[pri:7, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:09 IST" name="SaveCPT" finished-at="2021-06-15T11:06:19 IST" duration-ms="9301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveCPT -->
+        <test-method signature="SearchCPTRecord()[pri:8, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:19 IST" name="SearchCPTRecord" finished-at="2021-06-15T11:06:38 IST" duration-ms="19147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCPTRecord -->
+        <test-method signature="GetRecord()[pri:9, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:38 IST" name="GetRecord" finished-at="2021-06-15T11:06:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRecord -->
+        <test-method signature="GoCPTDetails()[pri:10, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:38 IST" name="GoCPTDetails" finished-at="2021-06-15T11:06:42 IST" duration-ms="4250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoCPTDetails -->
+        <test-method signature="CPTExpand()[pri:11, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:42 IST" name="CPTExpand" finished-at="2021-06-15T11:06:52 IST" duration-ms="10259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPTExpand -->
+        <test-method signature="ADDCPTBill()[pri:12, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:06:52 IST" name="ADDCPTBill" finished-at="2021-06-15T11:07:17 IST" duration-ms="24954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADDCPTBill -->
+        <test-method signature="BillcptSearch()[pri:13, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:17 IST" name="BillcptSearch" finished-at="2021-06-15T11:07:21 IST" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillcptSearch -->
+        <test-method signature="EditBillcpt()[pri:14, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:21 IST" name="EditBillcpt" finished-at="2021-06-15T11:07:32 IST" duration-ms="10348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditBillcpt -->
+        <test-method signature="VerfiyEditBillcpt()[pri:15, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:32 IST" name="VerfiyEditBillcpt" finished-at="2021-06-15T11:07:40 IST" duration-ms="8314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyEditBillcpt -->
+        <test-method signature="ValidateExcel()[pri:16, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:40 IST" name="ValidateExcel" finished-at="2021-06-15T11:07:50 IST" duration-ms="10325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateExcel -->
+        <test-method signature="VerifyDownload()[pri:17, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:50 IST" name="VerifyDownload" finished-at="2021-06-15T11:07:53 IST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDownload -->
+        <test-method signature="VerifyInvalidUploadTemplate()[pri:18, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:53 IST" name="VerifyInvalidUploadTemplate" finished-at="2021-06-15T11:07:59 IST" duration-ms="6158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUploadTemplate -->
+        <test-method signature="VerifyValidUploadTemplate()[pri:19, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:07:59 IST" name="VerifyValidUploadTemplate" finished-at="2021-06-15T11:08:16 IST" duration-ms="16872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidUploadTemplate -->
+        <test-method signature="SortBillingCptCode()[pri:20, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:08:16 IST" name="SortBillingCptCode" finished-at="2021-06-15T11:08:32 IST" duration-ms="16534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortBillingCptCode -->
+        <test-method signature="deleteuploadedCPT()[pri:21, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:08:32 IST" name="deleteuploadedCPT" finished-at="2021-06-15T11:08:47 IST" duration-ms="14713" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=91.0.4472.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PIL-L-L-21-032', ip: '172.31.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\LOKESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb07832b10bccf5e25930feab2917adb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=91.0.4472.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PIL-L-L-21-032', ip: '172.31.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\LOKESH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb07832b10bccf5e25930feab2917adb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at testCases.Client_PricingScheduleCPT_Detail.deleteuploadedCPT(Client_PricingScheduleCPT_Detail.java:632)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuploadedCPT -->
+        <test-method signature="SaveCPTSatus()[pri:22, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:08:47 IST" name="SaveCPTSatus" finished-at="2021-06-15T11:08:52 IST" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveCPTSatus -->
+        <test-method signature="SubmitCPTSatus()[pri:23, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:08:52 IST" name="SubmitCPTSatus" finished-at="2021-06-15T11:09:01 IST" duration-ms="8548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitCPTSatus -->
+        <test-method signature="RejectCPTStatus()[pri:24, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:09:01 IST" name="RejectCPTStatus" finished-at="2021-06-15T11:09:21 IST" duration-ms="20290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectCPTStatus -->
+        <test-method signature="CPTAuditHistory()[pri:25, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:09:21 IST" name="CPTAuditHistory" finished-at="2021-06-15T11:09:29 IST" duration-ms="8299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPTAuditHistory -->
+        <test-method signature="CPTCancelStatus()[pri:26, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:09:29 IST" name="CPTCancelStatus" finished-at="2021-06-15T11:09:30 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPTCancelStatus -->
+        <test-method signature="DeleteCPTMasterRecord()[pri:27, instance:testCases.Client_PricingScheduleCPT_Detail@6d4d66d2]" started-at="2021-06-15T11:09:30 IST" name="DeleteCPTMasterRecord" finished-at="2021-06-15T11:10:10 IST" duration-ms="39581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCPTMasterRecord -->
+      </class> <!-- testCases.Client_PricingScheduleCPT_Detail -->
+    </test> <!-- Client Pricing Schedule CPT Detail Test cases -->
+    <test started-at="2021-06-15T11:10:10 IST" name="Medicare OWCP Factor Schedule List Test cases" finished-at="2021-06-15T11:11:46 IST" duration-ms="95873">
+      <class name="testCases.MedicareOWCP_List">
+        <test-method signature="GoToMedicaremenu()[pri:0, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:10 IST" name="GoToMedicaremenu" finished-at="2021-06-15T11:10:12 IST" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToMedicaremenu -->
+        <test-method signature="GoToMOListmenu()[pri:1, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:12 IST" name="GoToMOListmenu" finished-at="2021-06-15T11:10:15 IST" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToMOListmenu -->
+        <test-method signature="ExpandCollapse()[pri:2, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:15 IST" name="ExpandCollapse" finished-at="2021-06-15T11:10:21 IST" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExpandCollapse -->
+        <test-method signature="SelectType()[pri:3, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:21 IST" name="SelectType" finished-at="2021-06-15T11:10:23 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectType -->
+        <test-method signature="SelectStartDate()[pri:4, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:23 IST" name="SelectStartDate" finished-at="2021-06-15T11:10:25 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectStartDate -->
+        <test-method signature="SelectEndDate()[pri:5, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:25 IST" name="SelectEndDate" finished-at="2021-06-15T11:10:28 IST" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEndDate -->
+        <test-method signature="SelectStatus()[pri:6, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:28 IST" name="SelectStatus" finished-at="2021-06-15T11:10:30 IST" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectStatus -->
+        <test-method signature="ClickSearch()[pri:7, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:30 IST" name="ClickSearch" finished-at="2021-06-15T11:10:32 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearch -->
+        <test-method signature="Searchresult()[pri:8, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:32 IST" name="Searchresult" finished-at="2021-06-15T11:10:34 IST" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchresult -->
+        <test-method signature="ClearSearch()[pri:9, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:34 IST" name="ClearSearch" finished-at="2021-06-15T11:10:42 IST" duration-ms="8348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearSearch -->
+        <test-method signature="SortColumn()[pri:10, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:10:42 IST" name="SortColumn" finished-at="2021-06-15T11:11:11 IST" duration-ms="28943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortColumn -->
+        <test-method signature="PaginationColumn()[pri:11, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:11:11 IST" name="PaginationColumn" finished-at="2021-06-15T11:11:22 IST" duration-ms="10300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaginationColumn -->
+        <test-method signature="VerifyAddNewvalidation()[pri:12, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:11:22 IST" name="VerifyAddNewvalidation" finished-at="2021-06-15T11:11:35 IST" duration-ms="12992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNewvalidation -->
+        <test-method signature="AddNew()[pri:13, instance:testCases.MedicareOWCP_List@5b1669c0]" started-at="2021-06-15T11:11:35 IST" name="AddNew" finished-at="2021-06-15T11:11:46 IST" duration-ms="11365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNew -->
+      </class> <!-- testCases.MedicareOWCP_List -->
+    </test> <!-- Medicare OWCP Factor Schedule List Test cases -->
+    <test started-at="2021-06-15T11:11:46 IST" name="Medicare Factor Schedule Detail Test cases" finished-at="2021-06-15T11:16:43 IST" duration-ms="297244">
+      <class name="testCases.Medicare_Detail">
+        <test-method signature="MedicareDetailTC()[pri:0, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:11:46 IST" name="MedicareDetailTC" finished-at="2021-06-15T11:11:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicareDetailTC -->
+        <test-method signature="MedicareSearchRecord()[pri:1, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:11:46 IST" name="MedicareSearchRecord" finished-at="2021-06-15T11:12:03 IST" duration-ms="17204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicareSearchRecord -->
+        <test-method signature="GoDetails()[pri:2, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:12:03 IST" name="GoDetails" finished-at="2021-06-15T11:12:06 IST" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoDetails -->
+        <test-method signature="MedicareExpand()[pri:3, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:12:06 IST" name="MedicareExpand" finished-at="2021-06-15T11:12:18 IST" duration-ms="12356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicareExpand -->
+        <test-method signature="AddCPTFactorValidation()[pri:4, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:12:18 IST" name="AddCPTFactorValidation" finished-at="2021-06-15T11:12:47 IST" duration-ms="29286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCPTFactorValidation -->
+        <test-method signature="SearchAddedCode()[pri:5, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:12:47 IST" name="SearchAddedCode" finished-at="2021-06-15T11:12:50 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAddedCode -->
+        <test-method signature="EditCode()[pri:6, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:12:50 IST" name="EditCode" finished-at="2021-06-15T11:13:00 IST" duration-ms="10514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCode -->
+        <test-method signature="ExcelImportValidation()[pri:7, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:13:00 IST" name="ExcelImportValidation" finished-at="2021-06-15T11:13:08 IST" duration-ms="8273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelImportValidation -->
+        <test-method signature="Download()[pri:8, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:13:08 IST" name="Download" finished-at="2021-06-15T11:13:11 IST" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download -->
+        <test-method signature="VerifyInvalidUploadTemplate()[pri:9, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:13:11 IST" name="VerifyInvalidUploadTemplate" finished-at="2021-06-15T11:13:17 IST" duration-ms="6151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUploadTemplate -->
+        <test-method signature="VerifyValidUploadTemplate()[pri:10, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:13:17 IST" name="VerifyValidUploadTemplate" finished-at="2021-06-15T11:13:33 IST" duration-ms="16417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidUploadTemplate -->
+        <test-method signature="deleteuploadedCPTFactor()[pri:11, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:13:33 IST" name="deleteuploadedCPTFactor" finished-at="2021-06-15T11:13:56 IST" duration-ms="22725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuploadedCPTFactor -->
+        <test-method signature="multipleUpload()[pri:12, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:13:56 IST" name="multipleUpload" finished-at="2021-06-15T11:14:06 IST" duration-ms="10359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleUpload -->
+        <test-method signature="SortBillingMedicareCode()[pri:13, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:06 IST" name="SortBillingMedicareCode" finished-at="2021-06-15T11:14:19 IST" duration-ms="12382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortBillingMedicareCode -->
+        <test-method signature="SaveSatus()[pri:14, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:19 IST" name="SaveSatus" finished-at="2021-06-15T11:14:23 IST" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveSatus -->
+        <test-method signature="SubmitSatus()[pri:15, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:23 IST" name="SubmitSatus" finished-at="2021-06-15T11:14:31 IST" duration-ms="8290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitSatus -->
+        <test-method signature="RejectStatus()[pri:16, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:31 IST" name="RejectStatus" finished-at="2021-06-15T11:14:48 IST" duration-ms="16606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectStatus -->
+        <test-method signature="AuditHistory()[pri:17, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:48 IST" name="AuditHistory" finished-at="2021-06-15T11:14:56 IST" duration-ms="8322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditHistory -->
+        <test-method signature="CancelStatus()[pri:18, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:56 IST" name="CancelStatus" finished-at="2021-06-15T11:14:58 IST" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelStatus -->
+        <test-method signature="CloneCreatedRecord()[pri:19, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:14:58 IST" name="CloneCreatedRecord" finished-at="2021-06-15T11:16:05 IST" duration-ms="67780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloneCreatedRecord -->
+        <test-method signature="DeleteMasterRecord()[pri:20, instance:testCases.Medicare_Detail@248e319b]" started-at="2021-06-15T11:16:05 IST" name="DeleteMasterRecord" finished-at="2021-06-15T11:16:43 IST" duration-ms="37666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMasterRecord -->
+      </class> <!-- testCases.Medicare_Detail -->
+    </test> <!-- Medicare Factor Schedule Detail Test cases -->
+    <test started-at="2021-06-15T11:16:43 IST" name="OWCP Factor Schedule Detail Test cases" finished-at="2021-06-15T11:20:51 IST" duration-ms="247877">
+      <class name="testCases.OWCP_Detail">
+        <test-method signature="GoToAddOWCP()[pri:0, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:16:43 IST" name="GoToAddOWCP" finished-at="2021-06-15T11:17:00 IST" duration-ms="16440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToAddOWCP -->
+        <test-method signature="SearchOWCPRecord()[pri:1, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:17:00 IST" name="SearchOWCPRecord" finished-at="2021-06-15T11:17:17 IST" duration-ms="17500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOWCPRecord -->
+        <test-method signature="GetRecord()[pri:2, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:17:17 IST" name="GetRecord" finished-at="2021-06-15T11:17:20 IST" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRecord -->
+        <test-method signature="OWCPExpand()[pri:3, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:17:20 IST" name="OWCPExpand" finished-at="2021-06-15T11:17:32 IST" duration-ms="12369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OWCPExpand -->
+        <test-method signature="AddCPTFactorValidation()[pri:4, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:17:32 IST" name="AddCPTFactorValidation" finished-at="2021-06-15T11:18:02 IST" duration-ms="29271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCPTFactorValidation -->
+        <test-method signature="SearchAddedCode()[pri:5, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:02 IST" name="SearchAddedCode" finished-at="2021-06-15T11:18:04 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAddedCode -->
+        <test-method signature="EditCode()[pri:6, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:04 IST" name="EditCode" finished-at="2021-06-15T11:18:14 IST" duration-ms="10495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCode -->
+        <test-method signature="ExcelImportValidation()[pri:7, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:14 IST" name="ExcelImportValidation" finished-at="2021-06-15T11:18:22 IST" duration-ms="8278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelImportValidation -->
+        <test-method signature="Download()[pri:8, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:22 IST" name="Download" finished-at="2021-06-15T11:18:25 IST" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download -->
+        <test-method signature="VerifyInvalidUploadTemplate()[pri:9, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:25 IST" name="VerifyInvalidUploadTemplate" finished-at="2021-06-15T11:18:35 IST" duration-ms="10175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUploadTemplate -->
+        <test-method signature="VerifyValidUploadTemplate()[pri:10, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:35 IST" name="VerifyValidUploadTemplate" finished-at="2021-06-15T11:18:51 IST" duration-ms="16410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidUploadTemplate -->
+        <test-method signature="deleteuploadedCPTFactor()[pri:11, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:18:51 IST" name="deleteuploadedCPTFactor" finished-at="2021-06-15T11:19:14 IST" duration-ms="22711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuploadedCPTFactor -->
+        <test-method signature="multipleUpload()[pri:12, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:19:14 IST" name="multipleUpload" finished-at="2021-06-15T11:19:24 IST" duration-ms="10364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleUpload -->
+        <test-method signature="SortBillingMedicareCode()[pri:13, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:19:24 IST" name="SortBillingMedicareCode" finished-at="2021-06-15T11:19:37 IST" duration-ms="12389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortBillingMedicareCode -->
+        <test-method signature="SaveSatus()[pri:14, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:19:37 IST" name="SaveSatus" finished-at="2021-06-15T11:19:41 IST" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveSatus -->
+        <test-method signature="SubmitSatus()[pri:15, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:19:41 IST" name="SubmitSatus" finished-at="2021-06-15T11:19:49 IST" duration-ms="8323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitSatus -->
+        <test-method signature="RejectStatus()[pri:16, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:19:49 IST" name="RejectStatus" finished-at="2021-06-15T11:20:06 IST" duration-ms="16612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectStatus -->
+        <test-method signature="AuditHistory()[pri:17, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:20:06 IST" name="AuditHistory" finished-at="2021-06-15T11:20:14 IST" duration-ms="8304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditHistory -->
+        <test-method signature="CancelStatus()[pri:18, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:20:14 IST" name="CancelStatus" finished-at="2021-06-15T11:20:16 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelStatus -->
+        <test-method signature="DeleteMasterRecord()[pri:19, instance:testCases.OWCP_Detail@202b0582]" started-at="2021-06-15T11:20:16 IST" name="DeleteMasterRecord" finished-at="2021-06-15T11:20:51 IST" duration-ms="35278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMasterRecord -->
+      </class> <!-- testCases.OWCP_Detail -->
+    </test> <!-- OWCP Factor Schedule Detail Test cases -->
+    <test started-at="2021-06-15T11:20:51 IST" name="Services List Test cases" finished-at="2021-06-15T11:22:59 IST" duration-ms="128443">
+      <class name="testCases.Services_List">
+        <test-method signature="clickServiceMenu()[pri:0, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:20:51 IST" name="clickServiceMenu" finished-at="2021-06-15T11:20:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickServiceMenu -->
+        <test-method signature="clickServices()[pri:1, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:20:51 IST" name="clickServices" finished-at="2021-06-15T11:20:54 IST" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickServices -->
+        <test-method signature="verifyExpand()[pri:2, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:20:54 IST" name="verifyExpand" finished-at="2021-06-15T11:21:04 IST" duration-ms="10672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpand -->
+        <test-method signature="VerifyNoResult()[pri:3, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:21:04 IST" name="VerifyNoResult" finished-at="2021-06-15T11:21:34 IST" duration-ms="29577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNoResult -->
+        <test-method signature="clearsearch()[pri:4, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:21:34 IST" name="clearsearch" finished-at="2021-06-15T11:21:36 IST" duration-ms="2220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearsearch -->
+        <test-method signature="VerifySort()[pri:5, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:21:36 IST" name="VerifySort" finished-at="2021-06-15T11:22:13 IST" duration-ms="37204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySort -->
+        <test-method signature="VerifyPagination()[pri:6, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:22:13 IST" name="VerifyPagination" finished-at="2021-06-15T11:22:22 IST" duration-ms="8228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPagination -->
+        <test-method signature="VerifySearchResult()[pri:7, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:22:22 IST" name="VerifySearchResult" finished-at="2021-06-15T11:22:51 IST" duration-ms="29516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchResult -->
+        <test-method signature="GetResult()[pri:8, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:22:51 IST" name="GetResult" finished-at="2021-06-15T11:22:51 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetResult -->
+        <test-method signature="GoToDetails()[pri:9, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:22:51 IST" name="GoToDetails" finished-at="2021-06-15T11:22:57 IST" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToDetails -->
+        <test-method signature="GoBackList()[pri:10, instance:testCases.Services_List@548d708a]" started-at="2021-06-15T11:22:57 IST" name="GoBackList" finished-at="2021-06-15T11:22:59 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoBackList -->
+      </class> <!-- testCases.Services_List -->
+    </test> <!-- Services List Test cases -->
+    <test started-at="2021-06-15T11:22:59 IST" name="Services Appointment Invoice Test cases" finished-at="2021-06-15T11:27:07 IST" duration-ms="247707">
+      <class name="testCases.Services_AppInvoice_Detail">
+        <test-method signature="AppInvoicedetails()[pri:0, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:22:59 IST" name="AppInvoicedetails" finished-at="2021-06-15T11:22:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppInvoicedetails -->
+        <test-method signature="CheckServiceRecord()[pri:1, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:22:59 IST" name="CheckServiceRecord" finished-at="2021-06-15T11:23:21 IST" duration-ms="21661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServiceRecord -->
+        <test-method signature="getRecord()[pri:2, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:23:21 IST" name="getRecord" finished-at="2021-06-15T11:23:21 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecord -->
+        <test-method signature="GoToDetail()[pri:3, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:23:21 IST" name="GoToDetail" finished-at="2021-06-15T11:23:27 IST" duration-ms="5199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToDetail -->
+        <test-method signature="VerifyExpand()[pri:4, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:23:27 IST" name="VerifyExpand" finished-at="2021-06-15T11:23:52 IST" duration-ms="24938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpand -->
+        <test-method signature="VerifySearch()[pri:5, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:23:52 IST" name="VerifySearch" finished-at="2021-06-15T11:23:54 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch -->
+        <test-method signature="AddAdjustValidation()[pri:6, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:23:54 IST" name="AddAdjustValidation" finished-at="2021-06-15T11:24:26 IST" duration-ms="32073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustValidation -->
+        <test-method signature="AddAdjustByIcon()[pri:7, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:24:26 IST" name="AddAdjustByIcon" finished-at="2021-06-15T11:24:39 IST" duration-ms="12623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustByIcon -->
+        <test-method signature="Searchvalidation()[pri:8, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:24:39 IST" name="Searchvalidation" finished-at="2021-06-15T11:24:43 IST" duration-ms="4238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchvalidation -->
+        <test-method signature="SearchValidRecord()[pri:9, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:24:43 IST" name="SearchValidRecord" finished-at="2021-06-15T11:24:44 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchValidRecord -->
+        <test-method signature="EditAdjustment()[pri:10, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:24:44 IST" name="EditAdjustment" finished-at="2021-06-15T11:24:58 IST" duration-ms="14672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAdjustment -->
+        <test-method signature="DeleteAdjust()[pri:11, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:24:58 IST" name="DeleteAdjust" finished-at="2021-06-15T11:25:11 IST" duration-ms="12364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAdjust -->
+        <test-method signature="AddAdjustByButton()[pri:12, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:25:11 IST" name="AddAdjustByButton" finished-at="2021-06-15T11:25:17 IST" duration-ms="6227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustByButton -->
+        <test-method signature="AddAdjustButtonValidation()[pri:13, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:25:17 IST" name="AddAdjustButtonValidation" finished-at="2021-06-15T11:25:41 IST" duration-ms="24050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustButtonValidation -->
+        <test-method signature="AddNewAdjust()[pri:14, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:25:41 IST" name="AddNewAdjust" finished-at="2021-06-15T11:25:54 IST" duration-ms="12652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewAdjust -->
+        <test-method signature="SearchWithInvalidAdjust()[pri:15, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:25:54 IST" name="SearchWithInvalidAdjust" finished-at="2021-06-15T11:25:58 IST" duration-ms="4279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithInvalidAdjust -->
+        <test-method signature="EditNewAdjustment()[pri:16, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:25:58 IST" name="EditNewAdjustment" finished-at="2021-06-15T11:26:12 IST" duration-ms="14505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNewAdjustment -->
+        <test-method signature="DeleteNewAdjust()[pri:17, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:26:12 IST" name="DeleteNewAdjust" finished-at="2021-06-15T11:26:25 IST" duration-ms="12308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNewAdjust -->
+        <test-method signature="sortAdjustmenu()[pri:18, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:26:25 IST" name="sortAdjustmenu" finished-at="2021-06-15T11:26:43 IST" duration-ms="18666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAdjustmenu -->
+        <test-method signature="sortInvoiceLine()[pri:19, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:26:43 IST" name="sortInvoiceLine" finished-at="2021-06-15T11:27:00 IST" duration-ms="16758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortInvoiceLine -->
+        <test-method signature="VerifyViewall()[pri:20, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:27:00 IST" name="VerifyViewall" finished-at="2021-06-15T11:27:04 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyViewall -->
+        <test-method signature="canceldetail()[pri:21, instance:testCases.Services_AppInvoice_Detail@18271936]" started-at="2021-06-15T11:27:04 IST" name="canceldetail" finished-at="2021-06-15T11:27:07 IST" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canceldetail -->
+      </class> <!-- testCases.Services_AppInvoice_Detail -->
+    </test> <!-- Services Appointment Invoice Test cases -->
+    <test started-at="2021-06-15T11:27:07 IST" name="Services Event Invoice Test cases" finished-at="2021-06-15T11:31:03 IST" duration-ms="236028">
+      <class name="testCases.Services_EventInvoice_Detail">
+        <test-method signature="EventInvoicedetails()[pri:0, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:27:07 IST" name="EventInvoicedetails" finished-at="2021-06-15T11:27:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EventInvoicedetails -->
+        <test-method signature="CheckServiceRecord()[pri:1, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:27:07 IST" name="CheckServiceRecord" finished-at="2021-06-15T11:27:28 IST" duration-ms="21110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServiceRecord -->
+        <test-method signature="getRecord()[pri:2, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:27:28 IST" name="getRecord" finished-at="2021-06-15T11:27:29 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecord -->
+        <test-method signature="GoToDetail()[pri:3, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:27:29 IST" name="GoToDetail" finished-at="2021-06-15T11:27:34 IST" duration-ms="4982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToDetail -->
+        <test-method signature="VerifyExpand()[pri:4, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:27:34 IST" name="VerifyExpand" finished-at="2021-06-15T11:27:58 IST" duration-ms="24880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpand -->
+        <test-method signature="VerifySearch()[pri:5, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:27:58 IST" name="VerifySearch" finished-at="2021-06-15T11:28:01 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch -->
+        <test-method signature="AddAdjustValidation()[pri:6, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:28:01 IST" name="AddAdjustValidation" finished-at="2021-06-15T11:28:33 IST" duration-ms="32143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustValidation -->
+        <test-method signature="AddAdjustByIcon()[pri:7, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:28:33 IST" name="AddAdjustByIcon" finished-at="2021-06-15T11:28:46 IST" duration-ms="12469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustByIcon -->
+        <test-method signature="Searchvalidation()[pri:8, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:28:46 IST" name="Searchvalidation" finished-at="2021-06-15T11:28:50 IST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchvalidation -->
+        <test-method signature="SearchValidRecord()[pri:9, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:28:50 IST" name="SearchValidRecord" finished-at="2021-06-15T11:28:50 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchValidRecord -->
+        <test-method signature="EditAdjustment()[pri:10, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:28:50 IST" name="EditAdjustment" finished-at="2021-06-15T11:29:05 IST" duration-ms="14468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAdjustment -->
+        <test-method signature="DeleteAdjust()[pri:11, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:29:05 IST" name="DeleteAdjust" finished-at="2021-06-15T11:29:17 IST" duration-ms="12348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAdjust -->
+        <test-method signature="AddAdjustByButton()[pri:12, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:29:17 IST" name="AddAdjustByButton" finished-at="2021-06-15T11:29:23 IST" duration-ms="6236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustByButton -->
+        <test-method signature="AddAdjustButtonValidation()[pri:13, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:29:23 IST" name="AddAdjustButtonValidation" finished-at="2021-06-15T11:29:39 IST" duration-ms="15761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustButtonValidation -->
+        <test-method signature="AddNewAdjust()[pri:14, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:29:39 IST" name="AddNewAdjust" finished-at="2021-06-15T11:29:52 IST" duration-ms="12442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewAdjust -->
+        <test-method signature="SearchWithInvalidAdjust()[pri:15, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:29:52 IST" name="SearchWithInvalidAdjust" finished-at="2021-06-15T11:29:56 IST" duration-ms="4252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithInvalidAdjust -->
+        <test-method signature="EditNewAdjustment()[pri:16, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:29:56 IST" name="EditNewAdjustment" finished-at="2021-06-15T11:30:08 IST" duration-ms="12431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNewAdjustment -->
+        <test-method signature="DeleteNewAdjust()[pri:17, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:30:08 IST" name="DeleteNewAdjust" finished-at="2021-06-15T11:30:21 IST" duration-ms="12306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNewAdjust -->
+        <test-method signature="sortAdjustmenu()[pri:18, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:30:21 IST" name="sortAdjustmenu" finished-at="2021-06-15T11:30:39 IST" duration-ms="18648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAdjustmenu -->
+        <test-method signature="sortInvoiceLine()[pri:19, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:30:39 IST" name="sortInvoiceLine" finished-at="2021-06-15T11:30:56 IST" duration-ms="16776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortInvoiceLine -->
+        <test-method signature="VerifyViewall()[pri:20, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:30:56 IST" name="VerifyViewall" finished-at="2021-06-15T11:31:00 IST" duration-ms="4191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyViewall -->
+        <test-method signature="canceldetail()[pri:21, instance:testCases.Services_EventInvoice_Detail@5b218417]" started-at="2021-06-15T11:31:00 IST" name="canceldetail" finished-at="2021-06-15T11:31:03 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canceldetail -->
+      </class> <!-- testCases.Services_EventInvoice_Detail -->
+    </test> <!-- Services Event Invoice Test cases -->
+    <test started-at="2021-06-15T11:31:03 IST" name="Services Appointment Payment Test cases" finished-at="2021-06-15T11:35:50 IST" duration-ms="286536">
+      <class name="testCases.Services_AppPayment_Detail">
+        <test-method signature="AppPaymentdetails()[pri:0, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:31:03 IST" name="AppPaymentdetails" finished-at="2021-06-15T11:31:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppPaymentdetails -->
+        <test-method signature="CheckServiceRecord()[pri:1, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:31:03 IST" name="CheckServiceRecord" finished-at="2021-06-15T11:31:31 IST" duration-ms="27733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServiceRecord -->
+        <test-method signature="getRecord()[pri:2, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:31:31 IST" name="getRecord" finished-at="2021-06-15T11:31:31 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecord -->
+        <test-method signature="GoToDetail()[pri:3, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:31:31 IST" name="GoToDetail" finished-at="2021-06-15T11:31:37 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToDetail -->
+        <test-method signature="VerifyExpand()[pri:4, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:31:37 IST" name="VerifyExpand" finished-at="2021-06-15T11:32:01 IST" duration-ms="24890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpand -->
+        <test-method signature="VerifySearch()[pri:5, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:02 IST" name="VerifySearch" finished-at="2021-06-15T11:32:06 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch -->
+        <test-method signature="AddAdjustValidation()[pri:6, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:06 IST" name="AddAdjustValidation" finished-at="2021-06-15T11:32:35 IST" duration-ms="29037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustValidation -->
+        <test-method signature="AddPaymentAdjustByIcon()[pri:7, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:35 IST" name="AddPaymentAdjustByIcon" finished-at="2021-06-15T11:32:41 IST" duration-ms="6399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPaymentAdjustByIcon -->
+        <test-method signature="Searchvalidation()[pri:8, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:41 IST" name="Searchvalidation" finished-at="2021-06-15T11:32:46 IST" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchvalidation -->
+        <test-method signature="SearchValidRecord()[pri:9, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:46 IST" name="SearchValidRecord" finished-at="2021-06-15T11:32:48 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchValidRecord -->
+        <test-method signature="EditAdjustment()[pri:10, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:48 IST" name="EditAdjustment" finished-at="2021-06-15T11:32:56 IST" duration-ms="8244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAdjustment -->
+        <test-method signature="EditedAdjust()[pri:11, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:32:56 IST" name="EditedAdjust" finished-at="2021-06-15T11:33:03 IST" duration-ms="6343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditedAdjust -->
+        <test-method signature="DeleteAdjust()[pri:12, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:33:03 IST" name="DeleteAdjust" finished-at="2021-06-15T11:33:13 IST" duration-ms="10290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAdjust -->
+        <test-method signature="VerifyDelete()[pri:13, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:33:13 IST" name="VerifyDelete" finished-at="2021-06-15T11:33:19 IST" duration-ms="6206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDelete -->
+        <test-method signature="AddQuantityAdjust()[pri:14, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:33:19 IST" name="AddQuantityAdjust" finished-at="2021-06-15T11:33:36 IST" duration-ms="16665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuantityAdjust -->
+        <test-method signature="AddPaymentQuantityAdjustByIcon()[pri:15, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:33:36 IST" name="AddPaymentQuantityAdjustByIcon" finished-at="2021-06-15T11:33:48 IST" duration-ms="12652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPaymentQuantityAdjustByIcon -->
+        <test-method signature="AddFlatAdjustByButton()[pri:16, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:33:48 IST" name="AddFlatAdjustByButton" finished-at="2021-06-15T11:33:55 IST" duration-ms="6215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFlatAdjustByButton -->
+        <test-method signature="AddAdjustButtonValidation()[pri:17, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:33:55 IST" name="AddAdjustButtonValidation" finished-at="2021-06-15T11:34:12 IST" duration-ms="17558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustButtonValidation -->
+        <test-method signature="AddNewFlatAdjust()[pri:18, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:34:12 IST" name="AddNewFlatAdjust" finished-at="2021-06-15T11:34:19 IST" duration-ms="6470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewFlatAdjust -->
+        <test-method signature="AddQuantityAdjustByButton()[pri:19, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:34:19 IST" name="AddQuantityAdjustByButton" finished-at="2021-06-15T11:34:21 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuantityAdjustByButton -->
+        <test-method signature="AddAdjustQuantityValidation()[pri:20, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:34:21 IST" name="AddAdjustQuantityValidation" finished-at="2021-06-15T11:34:38 IST" duration-ms="17538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdjustQuantityValidation -->
+        <test-method signature="AddNewQuantityAdjust()[pri:21, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:34:38 IST" name="AddNewQuantityAdjust" finished-at="2021-06-15T11:34:51 IST" duration-ms="12429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewQuantityAdjust -->
+        <test-method signature="sortAdjustmenu()[pri:22, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:34:51 IST" name="sortAdjustmenu" finished-at="2021-06-15T11:35:12 IST" duration-ms="20789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAdjustmenu -->
+        <test-method signature="sortPaymentLine()[pri:23, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:35:12 IST" name="sortPaymentLine" finished-at="2021-06-15T11:35:32 IST" duration-ms="20861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPaymentLine -->
+        <test-method signature="VerifyViewall()[pri:24, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:35:32 IST" name="VerifyViewall" finished-at="2021-06-15T11:35:37 IST" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyViewall -->
+        <test-method signature="deleteAllAdjust()[pri:25, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:35:37 IST" name="deleteAllAdjust" finished-at="2021-06-15T11:35:45 IST" duration-ms="8262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllAdjust -->
+        <test-method signature="canceldetail()[pri:26, instance:testCases.Services_AppPayment_Detail@1caa0244]" started-at="2021-06-15T11:35:45 IST" name="canceldetail" finished-at="2021-06-15T11:35:50 IST" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canceldetail -->
+      </class> <!-- testCases.Services_AppPayment_Detail -->
+    </test> <!-- Services Appointment Payment Test cases -->
+    <test started-at="2021-06-15T11:35:50 IST" name="Vendor Invoice Details Test cases" finished-at="2021-06-15T11:43:20 IST" duration-ms="449957">
+      <class name="testCases.Vendor_Invoice_Details">
+        <test-method signature="clickVendorInvoice()[pri:0, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:35:50 IST" name="clickVendorInvoice" finished-at="2021-06-15T11:35:53 IST" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickVendorInvoice -->
+        <test-method signature="verifyShippingSearch()[pri:1, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:35:53 IST" name="verifyShippingSearch" finished-at="2021-06-15T11:36:14 IST" duration-ms="21286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShippingSearch -->
+        <test-method signature="cashpostingdetails()[pri:2, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:36:14 IST" name="cashpostingdetails" finished-at="2021-06-15T11:36:17 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cashpostingdetails -->
+        <test-method signature="VerifyExpand()[pri:3, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:36:17 IST" name="VerifyExpand" finished-at="2021-06-15T11:36:29 IST" duration-ms="12421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpand -->
+        <test-method signature="SearchInvoiceField()[pri:4, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:36:29 IST" name="SearchInvoiceField" finished-at="2021-06-15T11:36:34 IST" duration-ms="4191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInvoiceField -->
+        <test-method signature="sortInvoiceGrid()[pri:5, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:36:34 IST" name="sortInvoiceGrid" finished-at="2021-06-15T11:36:46 IST" duration-ms="12413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortInvoiceGrid -->
+        <test-method signature="ViewAll()[pri:6, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:36:46 IST" name="ViewAll" finished-at="2021-06-15T11:36:50 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAll -->
+        <test-method signature="VerifyReject()[pri:7, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:36:50 IST" name="VerifyReject" finished-at="2021-06-15T11:37:07 IST" duration-ms="16450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyReject -->
+        <test-method signature="VerifyCancel()[pri:8, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:37:07 IST" name="VerifyCancel" finished-at="2021-06-15T11:37:10 IST" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCancel -->
+        <test-method signature="verifyTravelSearch()[pri:9, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:37:10 IST" name="verifyTravelSearch" finished-at="2021-06-15T11:37:31 IST" duration-ms="21546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTravelSearch -->
+        <test-method signature="Traveldetails()[pri:10, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:37:31 IST" name="Traveldetails" finished-at="2021-06-15T11:37:34 IST" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Traveldetails -->
+        <test-method signature="VerifyTravelExpand()[pri:11, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:37:34 IST" name="VerifyTravelExpand" finished-at="2021-06-15T11:37:47 IST" duration-ms="12387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTravelExpand -->
+        <test-method signature="SearchTravelInvoiceField()[pri:12, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:37:47 IST" name="SearchTravelInvoiceField" finished-at="2021-06-15T11:37:51 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTravelInvoiceField -->
+        <test-method signature="sortTravelInvoiceGrid()[pri:13, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:37:51 IST" name="sortTravelInvoiceGrid" finished-at="2021-06-15T11:38:03 IST" duration-ms="12402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTravelInvoiceGrid -->
+        <test-method signature="TravelViewAll()[pri:14, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:38:03 IST" name="TravelViewAll" finished-at="2021-06-15T11:38:07 IST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TravelViewAll -->
+        <test-method signature="VerifyTravelReject()[pri:15, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:38:07 IST" name="VerifyTravelReject" finished-at="2021-06-15T11:38:24 IST" duration-ms="16445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTravelReject -->
+        <test-method signature="VerifyTravelCancel()[pri:16, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:38:24 IST" name="VerifyTravelCancel" finished-at="2021-06-15T11:38:28 IST" duration-ms="4709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTravelCancel -->
+        <test-method signature="verifyVaccineSearch()[pri:17, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:38:28 IST" name="verifyVaccineSearch" finished-at="2021-06-15T11:38:50 IST" duration-ms="21566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVaccineSearch -->
+        <test-method signature="Vaccinedetails()[pri:18, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:38:50 IST" name="Vaccinedetails" finished-at="2021-06-15T11:38:53 IST" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vaccinedetails -->
+        <test-method signature="VerifyVaccineExpand()[pri:19, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:38:53 IST" name="VerifyVaccineExpand" finished-at="2021-06-15T11:39:05 IST" duration-ms="12340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyVaccineExpand -->
+        <test-method signature="SearchVaccineInvoiceField()[pri:20, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:39:05 IST" name="SearchVaccineInvoiceField" finished-at="2021-06-15T11:39:10 IST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchVaccineInvoiceField -->
+        <test-method signature="sortVaccineInvoiceGrid()[pri:21, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:39:10 IST" name="sortVaccineInvoiceGrid" finished-at="2021-06-15T11:39:22 IST" duration-ms="12383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortVaccineInvoiceGrid -->
+        <test-method signature="VaccineViewAll()[pri:22, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:39:22 IST" name="VaccineViewAll" finished-at="2021-06-15T11:39:26 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VaccineViewAll -->
+        <test-method signature="VerifyVaccineReject()[pri:23, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:39:26 IST" name="VerifyVaccineReject" finished-at="2021-06-15T11:39:43 IST" duration-ms="16494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyVaccineReject -->
+        <test-method signature="VerifyVaccineCancel()[pri:24, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:39:43 IST" name="VerifyVaccineCancel" finished-at="2021-06-15T11:39:48 IST" duration-ms="4942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyVaccineCancel -->
+        <test-method signature="verifyDiagnosticSearch()[pri:25, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:39:48 IST" name="verifyDiagnosticSearch" finished-at="2021-06-15T11:40:09 IST" duration-ms="21301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiagnosticSearch -->
+        <test-method signature="Diagnosticdetails()[pri:26, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:40:09 IST" name="Diagnosticdetails" finished-at="2021-06-15T11:40:12 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diagnosticdetails -->
+        <test-method signature="VerifyDiagnosticMatchedExpand()[pri:27, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:40:12 IST" name="VerifyDiagnosticMatchedExpand" finished-at="2021-06-15T11:40:29 IST" duration-ms="16558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDiagnosticMatchedExpand -->
+        <test-method signature="SearchDiagnosticMatchedInvoiceField()[pri:28, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:40:29 IST" name="SearchDiagnosticMatchedInvoiceField" finished-at="2021-06-15T11:40:33 IST" duration-ms="4213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDiagnosticMatchedInvoiceField -->
+        <test-method signature="VerifyLink()[pri:29, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:40:33 IST" name="VerifyLink" finished-at="2021-06-15T11:40:37 IST" duration-ms="4231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLink -->
+        <test-method signature="sortDiagnosticMatchedInvoiceGrid()[pri:30, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:40:37 IST" name="sortDiagnosticMatchedInvoiceGrid" finished-at="2021-06-15T11:40:56 IST" duration-ms="18540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortDiagnosticMatchedInvoiceGrid -->
+        <test-method signature="SearchMisMatchedInvoiceField()[pri:31, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:40:56 IST" name="SearchMisMatchedInvoiceField" finished-at="2021-06-15T11:41:00 IST" duration-ms="4160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchMisMatchedInvoiceField -->
+        <test-method signature="sortMisMatchedInvoiceGrid()[pri:32, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:41:00 IST" name="sortMisMatchedInvoiceGrid" finished-at="2021-06-15T11:41:16 IST" duration-ms="16561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortMisMatchedInvoiceGrid -->
+        <test-method signature="DiagnosticMatchedViewAll()[pri:33, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:41:16 IST" name="DiagnosticMatchedViewAll" finished-at="2021-06-15T11:41:20 IST" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DiagnosticMatchedViewAll -->
+        <test-method signature="VerifyDiagnosticMatchedReject()[pri:34, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:41:20 IST" name="VerifyDiagnosticMatchedReject" finished-at="2021-06-15T11:41:37 IST" duration-ms="16519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDiagnosticMatchedReject -->
+        <test-method signature="VerifyDiagnosticMatchedCancel()[pri:35, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:41:37 IST" name="VerifyDiagnosticMatchedCancel" finished-at="2021-06-15T11:41:42 IST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDiagnosticMatchedCancel -->
+        <test-method signature="verifyDiagnosticMismatchSearch()[pri:36, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:41:42 IST" name="verifyDiagnosticMismatchSearch" finished-at="2021-06-15T11:42:03 IST" duration-ms="21424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiagnosticMismatchSearch -->
+        <test-method signature="DiagnosticMismatchdetails()[pri:37, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:03 IST" name="DiagnosticMismatchdetails" finished-at="2021-06-15T11:42:06 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DiagnosticMismatchdetails -->
+        <test-method signature="VerifyDiagnosticMismatchedExpand()[pri:38, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:06 IST" name="VerifyDiagnosticMismatchedExpand" finished-at="2021-06-15T11:42:23 IST" duration-ms="16550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDiagnosticMismatchedExpand -->
+        <test-method signature="SearchDiagnosticMismatchedInvoiceField()[pri:39, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:23 IST" name="SearchDiagnosticMismatchedInvoiceField" finished-at="2021-06-15T11:42:27 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDiagnosticMismatchedInvoiceField -->
+        <test-method signature="sortDiagnosticMismatchedInvoiceGrid()[pri:40, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:27 IST" name="sortDiagnosticMismatchedInvoiceGrid" finished-at="2021-06-15T11:42:43 IST" duration-ms="16552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortDiagnosticMismatchedInvoiceGrid -->
+        <test-method signature="SearchDiagnosticMisMatchedInvoiceField()[pri:41, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:43 IST" name="SearchDiagnosticMisMatchedInvoiceField" finished-at="2021-06-15T11:42:48 IST" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDiagnosticMisMatchedInvoiceField -->
+        <test-method signature="VerifyMismatchLink()[pri:42, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:48 IST" name="VerifyMismatchLink" finished-at="2021-06-15T11:42:52 IST" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMismatchLink -->
+        <test-method signature="sortDiagnosticMisMatchedInvoiceGrid()[pri:43, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:42:52 IST" name="sortDiagnosticMisMatchedInvoiceGrid" finished-at="2021-06-15T11:43:10 IST" duration-ms="18554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortDiagnosticMisMatchedInvoiceGrid -->
+        <test-method signature="DiagnosticMismatchedViewAll()[pri:44, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:43:10 IST" name="DiagnosticMismatchedViewAll" finished-at="2021-06-15T11:43:15 IST" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DiagnosticMismatchedViewAll -->
+        <test-method signature="VerifyDiagnosticMismatchedCancel()[pri:45, instance:testCases.Vendor_Invoice_Details@6f10d5b6]" started-at="2021-06-15T11:43:15 IST" name="VerifyDiagnosticMismatchedCancel" finished-at="2021-06-15T11:43:20 IST" duration-ms="5224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDiagnosticMismatchedCancel -->
+      </class> <!-- testCases.Vendor_Invoice_Details -->
+    </test> <!-- Vendor Invoice Details Test cases -->
+    <test started-at="2021-06-15T11:43:20 IST" name="Cash Postings Listing Test cases" finished-at="2021-06-15T11:46:12 IST" duration-ms="172048">
+      <class name="testCases.Cash_Postings_List">
+        <test-method signature="clickCashPostMenu()[pri:0, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:43:20 IST" name="clickCashPostMenu" finished-at="2021-06-15T11:43:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCashPostMenu -->
+        <test-method signature="clickCashPost()[pri:1, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:43:20 IST" name="clickCashPost" finished-at="2021-06-15T11:43:24 IST" duration-ms="3881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCashPost -->
+        <test-method signature="verifyExpand()[pri:2, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:43:24 IST" name="verifyExpand" finished-at="2021-06-15T11:43:34 IST" duration-ms="10611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpand -->
+        <test-method signature="VerifyNoResult()[pri:3, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:43:34 IST" name="VerifyNoResult" finished-at="2021-06-15T11:43:51 IST" duration-ms="17107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNoResult -->
+        <test-method signature="clearsearch()[pri:4, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:43:51 IST" name="clearsearch" finished-at="2021-06-15T11:43:54 IST" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearsearch -->
+        <test-method signature="VerifySort()[pri:5, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:43:54 IST" name="VerifySort" finished-at="2021-06-15T11:44:31 IST" duration-ms="37123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySort -->
+        <test-method signature="VerifyPagination()[pri:6, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:44:31 IST" name="VerifyPagination" finished-at="2021-06-15T11:44:39 IST" duration-ms="8268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPagination -->
+        <test-method signature="VerifySearchResult()[pri:7, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:44:39 IST" name="VerifySearchResult" finished-at="2021-06-15T11:44:56 IST" duration-ms="17082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchResult -->
+        <test-method signature="GetResult()[pri:8, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:44:56 IST" name="GetResult" finished-at="2021-06-15T11:44:56 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetResult -->
+        <test-method signature="GoToDetails()[pri:9, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:44:56 IST" name="GoToDetails" finished-at="2021-06-15T11:45:02 IST" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToDetails -->
+        <test-method signature="GoBackList()[pri:10, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:45:02 IST" name="GoBackList" finished-at="2021-06-15T11:45:05 IST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoBackList -->
+        <test-method signature="VerifyAddNewvalidation()[pri:11, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:45:05 IST" name="VerifyAddNewvalidation" finished-at="2021-06-15T11:45:21 IST" duration-ms="15392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNewvalidation -->
+        <test-method signature="AddCancelValidation()[pri:12, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:45:21 IST" name="AddCancelValidation" finished-at="2021-06-15T11:45:44 IST" duration-ms="23391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCancelValidation -->
+        <test-method signature="AddNewCP()[pri:13, instance:testCases.Cash_Postings_List@45d84a20]" started-at="2021-06-15T11:45:44 IST" name="AddNewCP" finished-at="2021-06-15T11:46:12 IST" duration-ms="27828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewCP -->
+      </class> <!-- testCases.Cash_Postings_List -->
+    </test> <!-- Cash Postings Listing Test cases -->
+    <test started-at="2021-06-15T11:46:12 IST" name="Cash Postings Details Test cases" finished-at="2021-06-15T11:50:06 IST" duration-ms="234132">
+      <class name="testCases.Cash_Postings_Details">
+        <test-method signature="clickCashPostMenu()[pri:0, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:12 IST" name="clickCashPostMenu" finished-at="2021-06-15T11:46:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCashPostMenu -->
+        <test-method signature="clickCashPost()[pri:1, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:12 IST" name="clickCashPost" finished-at="2021-06-15T11:46:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCashPost -->
+        <test-method signature="verifySearch()[pri:2, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:12 IST" name="verifySearch" finished-at="2021-06-15T11:46:29 IST" duration-ms="17419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method signature="cashpostingdetails()[pri:3, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:29 IST" name="cashpostingdetails" finished-at="2021-06-15T11:46:33 IST" duration-ms="3880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cashpostingdetails -->
+        <test-method signature="TakeScreenshot()[pri:4, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:33 IST" name="TakeScreenshot" finished-at="2021-06-15T11:46:33 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="checkUnsaved()[pri:5, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:33 IST" name="checkUnsaved" finished-at="2021-06-15T11:46:50 IST" duration-ms="16436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnsaved -->
+        <test-method signature="VerifyList()[pri:6, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:46:50 IST" name="VerifyList" finished-at="2021-06-15T11:47:19 IST" duration-ms="28961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyList -->
+        <test-method signature="VerifyYesChange()[pri:7, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:47:19 IST" name="VerifyYesChange" finished-at="2021-06-15T11:47:34 IST" duration-ms="15278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyYesChange -->
+        <test-method signature="VerifyChangedetail()[pri:8, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:47:34 IST" name="VerifyChangedetail" finished-at="2021-06-15T11:48:07 IST" duration-ms="33051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyChangedetail -->
+        <test-method signature="clickAddInvoice()[pri:9, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:07 IST" name="clickAddInvoice" finished-at="2021-06-15T11:48:11 IST" duration-ms="4166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddInvoice -->
+        <test-method signature="sortAddInvoicepopup()[pri:10, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:11 IST" name="sortAddInvoicepopup" finished-at="2021-06-15T11:48:24 IST" duration-ms="12431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAddInvoicepopup -->
+        <test-method signature="InvalidSearch()[pri:11, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:24 IST" name="InvalidSearch" finished-at="2021-06-15T11:48:36 IST" duration-ms="12557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSearch -->
+        <test-method signature="ValidSearch()[pri:12, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:36 IST" name="ValidSearch" finished-at="2021-06-15T11:48:43 IST" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidSearch -->
+        <test-method signature="SelectInvoice()[pri:13, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:43 IST" name="SelectInvoice" finished-at="2021-06-15T11:48:47 IST" duration-ms="4152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectInvoice -->
+        <test-method signature="VerifySelectedInvoice()[pri:14, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:47 IST" name="VerifySelectedInvoice" finished-at="2021-06-15T11:48:53 IST" duration-ms="6239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectedInvoice -->
+        <test-method signature="VerifyEnterAmountWarn()[pri:15, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:53 IST" name="VerifyEnterAmountWarn" finished-at="2021-06-15T11:48:57 IST" duration-ms="4170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnterAmountWarn -->
+        <test-method signature="EnterAmountNow()[pri:16, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:48:57 IST" name="EnterAmountNow" finished-at="2021-06-15T11:49:01 IST" duration-ms="4187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAmountNow -->
+        <test-method signature="RemoveAmountNow()[pri:17, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:01 IST" name="RemoveAmountNow" finished-at="2021-06-15T11:49:10 IST" duration-ms="8294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveAmountNow -->
+        <test-method signature="AddAllInvoice()[pri:18, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:10 IST" name="AddAllInvoice" finished-at="2021-06-15T11:49:18 IST" duration-ms="8312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAllInvoice -->
+        <test-method signature="RemoveAll()[pri:19, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:18 IST" name="RemoveAll" finished-at="2021-06-15T11:49:32 IST" duration-ms="14469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveAll -->
+        <test-method signature="ApplyPendingBalWarn()[pri:20, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:32 IST" name="ApplyPendingBalWarn" finished-at="2021-06-15T11:49:37 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyPendingBalWarn -->
+        <test-method signature="CheckApplyPending()[pri:21, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:37 IST" name="CheckApplyPending" finished-at="2021-06-15T11:49:47 IST" duration-ms="10319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckApplyPending -->
+        <test-method signature="CheckConfirmPost()[pri:22, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:47 IST" name="CheckConfirmPost" finished-at="2021-06-15T11:49:47 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckConfirmPost -->
+        <test-method signature="VerifyExpand()[pri:23, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:49:47 IST" name="VerifyExpand" finished-at="2021-06-15T11:50:01 IST" duration-ms="14422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpand -->
+        <test-method signature="VerifyViewall()[pri:24, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:50:01 IST" name="VerifyViewall" finished-at="2021-06-15T11:50:06 IST" duration-ms="4166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyViewall -->
+        <test-method signature="CancelDetail()[pri:25, instance:testCases.Cash_Postings_Details@5b799640]" started-at="2021-06-15T11:50:06 IST" name="CancelDetail" finished-at="2021-06-15T11:50:06 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelDetail -->
+      </class> <!-- testCases.Cash_Postings_Details -->
+    </test> <!-- Cash Postings Details Test cases -->
+    <test started-at="2021-06-15T11:50:06 IST" name="Unapplied Cash Postings Details Test cases" finished-at="2021-06-15T11:53:51 IST" duration-ms="224711">
+      <class name="testCases.Unapplied_Cash_Posting_Details">
+        <test-method signature="clickCashPostMenu()[pri:0, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:06 IST" name="clickCashPostMenu" finished-at="2021-06-15T11:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCashPostMenu -->
+        <test-method signature="clickCashPost()[pri:1, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:06 IST" name="clickCashPost" finished-at="2021-06-15T11:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCashPost -->
+        <test-method signature="verifySearch()[pri:2, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:06 IST" name="verifySearch" finished-at="2021-06-15T11:50:15 IST" duration-ms="9045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method signature="cashpostingdetails()[pri:3, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:15 IST" name="cashpostingdetails" finished-at="2021-06-15T11:50:18 IST" duration-ms="2629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cashpostingdetails -->
+        <test-method signature="TakeScreenshot()[pri:4, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:18 IST" name="TakeScreenshot" finished-at="2021-06-15T11:50:18 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="VerifyPageLabel()[pri:5, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:18 IST" name="VerifyPageLabel" finished-at="2021-06-15T11:50:20 IST" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageLabel -->
+        <test-method signature="VerifyExpand()[pri:6, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:20 IST" name="VerifyExpand" finished-at="2021-06-15T11:50:32 IST" duration-ms="12366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyExpand -->
+        <test-method signature="VerifyUnsaveNo()[pri:7, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:32 IST" name="VerifyUnsaveNo" finished-at="2021-06-15T11:50:56 IST" duration-ms="24221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUnsaveNo -->
+        <test-method signature="VerifyUnsaveYes()[pri:8, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:50:56 IST" name="VerifyUnsaveYes" finished-at="2021-06-15T11:51:05 IST" duration-ms="8291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUnsaveYes -->
+        <test-method signature="clickAddInvoice()[pri:9, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:51:05 IST" name="clickAddInvoice" finished-at="2021-06-15T11:51:09 IST" duration-ms="4157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddInvoice -->
+        <test-method signature="sortAddInvoicepopup()[pri:10, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:51:09 IST" name="sortAddInvoicepopup" finished-at="2021-06-15T11:51:21 IST" duration-ms="12419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAddInvoicepopup -->
+        <test-method signature="InvalidSearch()[pri:11, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:51:21 IST" name="InvalidSearch" finished-at="2021-06-15T11:51:34 IST" duration-ms="12494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSearch -->
+        <test-method signature="ValidSearch()[pri:12, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:51:34 IST" name="ValidSearch" finished-at="2021-06-15T11:51:44 IST" duration-ms="10503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidSearch -->
+        <test-method signature="AddAllInvoice()[pri:13, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:51:44 IST" name="AddAllInvoice" finished-at="2021-06-15T11:51:53 IST" duration-ms="8320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAllInvoice -->
+        <test-method signature="RemoveAll()[pri:14, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:51:53 IST" name="RemoveAll" finished-at="2021-06-15T11:52:05 IST" duration-ms="12406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveAll -->
+        <test-method signature="VerifyConfirmInvWarn()[pri:15, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:05 IST" name="VerifyConfirmInvWarn" finished-at="2021-06-15T11:52:07 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyConfirmInvWarn -->
+        <test-method signature="AddValidInvoice()[pri:16, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:07 IST" name="AddValidInvoice" finished-at="2021-06-15T11:52:15 IST" duration-ms="8422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddValidInvoice -->
+        <test-method signature="SelectInvoice()[pri:17, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:15 IST" name="SelectInvoice" finished-at="2021-06-15T11:52:20 IST" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectInvoice -->
+        <test-method signature="VerifySelectedInvoice()[pri:18, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:20 IST" name="VerifySelectedInvoice" finished-at="2021-06-15T11:52:30 IST" duration-ms="10488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectedInvoice -->
+        <test-method signature="VerifyEnterAmountWarn()[pri:19, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:30 IST" name="VerifyEnterAmountWarn" finished-at="2021-06-15T11:52:38 IST" duration-ms="8188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEnterAmountWarn -->
+        <test-method signature="EnterAmountNow()[pri:20, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:38 IST" name="EnterAmountNow" finished-at="2021-06-15T11:52:42 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAmountNow -->
+        <test-method signature="CheckApplyPending()[pri:21, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:42 IST" name="CheckApplyPending" finished-at="2021-06-15T11:52:51 IST" duration-ms="8287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckApplyPending -->
+        <test-method signature="GoToList()[pri:22, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:52:51 IST" name="GoToList" finished-at="2021-06-15T11:53:05 IST" duration-ms="13923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToList -->
+        <test-method signature="Reversecashpostingdetails()[pri:23, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:53:05 IST" name="Reversecashpostingdetails" finished-at="2021-06-15T11:53:08 IST" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reversecashpostingdetails -->
+        <test-method signature="ClickReversePost()[pri:24, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:53:08 IST" name="ClickReversePost" finished-at="2021-06-15T11:53:16 IST" duration-ms="8254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickReversePost -->
+        <test-method signature="GoToListforclose()[pri:25, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:53:16 IST" name="GoToListforclose" finished-at="2021-06-15T11:53:27 IST" duration-ms="10917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToListforclose -->
+        <test-method signature="GoToUnappliedCash()[pri:26, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:53:27 IST" name="GoToUnappliedCash" finished-at="2021-06-15T11:53:30 IST" duration-ms="2911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUnappliedCash -->
+        <test-method signature="RefundClose()[pri:27, instance:testCases.Unapplied_Cash_Posting_Details@6e535154]" started-at="2021-06-15T11:53:30 IST" name="RefundClose" finished-at="2021-06-15T11:53:51 IST" duration-ms="21075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefundClose -->
+      </class> <!-- testCases.Unapplied_Cash_Posting_Details -->
+    </test> <!-- Unapplied Cash Postings Details Test cases -->
+    <test started-at="2021-06-15T11:53:51 IST" name="AR Aging Details Test cases" finished-at="2021-06-15T11:55:45 IST" duration-ms="114441">
+      <class name="testCases.AR_Aging_Details_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.AR_Aging_Details_Report@72c8e7b]" started-at="2021-06-15T11:53:51 IST" name="clickReports" finished-at="2021-06-15T11:53:53 IST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="ARAgingdetails()[pri:1, instance:testCases.AR_Aging_Details_Report@72c8e7b]" started-at="2021-06-15T11:53:53 IST" name="ARAgingdetails" finished-at="2021-06-15T11:55:45 IST" duration-ms="112365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ARAgingdetails -->
+      </class> <!-- testCases.AR_Aging_Details_Report -->
+    </test> <!-- AR Aging Details Test cases -->
+    <test started-at="2021-06-15T11:55:45 IST" name="AR Aging Summary Test cases" finished-at="2021-06-15T11:57:40 IST" duration-ms="114593">
+      <class name="testCases.AR_Aging_Summary_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.AR_Aging_Summary_Report@4b8d604b]" started-at="2021-06-15T11:55:45 IST" name="clickReports" finished-at="2021-06-15T11:55:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="ARAgingSummary()[pri:1, instance:testCases.AR_Aging_Summary_Report@4b8d604b]" started-at="2021-06-15T11:55:45 IST" name="ARAgingSummary" finished-at="2021-06-15T11:57:40 IST" duration-ms="114591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ARAgingSummary -->
+      </class> <!-- testCases.AR_Aging_Summary_Report -->
+    </test> <!-- AR Aging Summary Test cases -->
+    <test started-at="2021-06-15T11:57:40 IST" name="Adjustment Report Test cases" finished-at="2021-06-15T12:00:00 IST" duration-ms="140036">
+      <class name="testCases.Adjustments_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.Adjustments_Report@3feb2dda]" started-at="2021-06-15T11:57:40 IST" name="clickReports" finished-at="2021-06-15T11:57:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="AdjustReport()[pri:1, instance:testCases.Adjustments_Report@3feb2dda]" started-at="2021-06-15T11:57:40 IST" name="AdjustReport" finished-at="2021-06-15T12:00:00 IST" duration-ms="140031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdjustReport -->
+      </class> <!-- testCases.Adjustments_Report -->
+    </test> <!-- Adjustment Report Test cases -->
+    <test started-at="2021-06-15T12:00:00 IST" name="Unbilling Services Test cases" finished-at="2021-06-15T12:01:53 IST" duration-ms="113485">
+      <class name="testCases.Unbilling_Services_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.Unbilling_Services_Report@7e990ed7]" started-at="2021-06-15T12:00:00 IST" name="clickReports" finished-at="2021-06-15T12:00:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="UnbillingServices()[pri:1, instance:testCases.Unbilling_Services_Report@7e990ed7]" started-at="2021-06-15T12:00:00 IST" name="UnbillingServices" finished-at="2021-06-15T12:01:53 IST" duration-ms="113481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnbillingServices -->
+      </class> <!-- testCases.Unbilling_Services_Report -->
+    </test> <!-- Unbilling Services Test cases -->
+    <test started-at="2021-06-15T12:01:53 IST" name="Cash Posting Details Report Test cases" finished-at="2021-06-15T12:04:23 IST" duration-ms="149840">
+      <class name="testCases.Cash_Posting_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.Cash_Posting_Report@491b9b8]" started-at="2021-06-15T12:01:53 IST" name="clickReports" finished-at="2021-06-15T12:01:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="CashPostingDetailsReport()[pri:1, instance:testCases.Cash_Posting_Report@491b9b8]" started-at="2021-06-15T12:01:53 IST" name="CashPostingDetailsReport" finished-at="2021-06-15T12:04:23 IST" duration-ms="149836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CashPostingDetailsReport -->
+      </class> <!-- testCases.Cash_Posting_Report -->
+    </test> <!-- Cash Posting Details Report Test cases -->
+    <test started-at="2021-06-15T12:04:23 IST" name="AP Aging Details Test cases" finished-at="2021-06-15T12:07:24 IST" duration-ms="180889">
+      <class name="testCases.AP_Aging_Details_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.AP_Aging_Details_Report@624ea235]" started-at="2021-06-15T12:04:23 IST" name="clickReports" finished-at="2021-06-15T12:04:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="APAgingDetailsReport()[pri:1, instance:testCases.AP_Aging_Details_Report@624ea235]" started-at="2021-06-15T12:04:23 IST" name="APAgingDetailsReport" finished-at="2021-06-15T12:07:24 IST" duration-ms="180886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APAgingDetailsReport -->
+      </class> <!-- testCases.AP_Aging_Details_Report -->
+    </test> <!-- AP Aging Details Test cases -->
+    <test started-at="2021-06-15T12:07:24 IST" name="AP Aging Summary Test cases" finished-at="2021-06-15T12:10:26 IST" duration-ms="182462">
+      <class name="testCases.AP_Aging_Summary_Report">
+        <test-method signature="clickReports()[pri:0, instance:testCases.AP_Aging_Summary_Report@210ab13f]" started-at="2021-06-15T12:07:24 IST" name="clickReports" finished-at="2021-06-15T12:07:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="APAgingSummaryReport()[pri:1, instance:testCases.AP_Aging_Summary_Report@210ab13f]" started-at="2021-06-15T12:07:24 IST" name="APAgingSummaryReport" finished-at="2021-06-15T12:10:26 IST" duration-ms="182458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APAgingSummaryReport -->
+      </class> <!-- testCases.AP_Aging_Summary_Report -->
+    </test> <!-- AP Aging Summary Test cases -->
+    <test started-at="2021-06-15T12:10:26 IST" name="Unapplied Cash Posting Details Test cases" finished-at="2021-06-15T12:12:13 IST" duration-ms="106588">
+      <class name="testCases.Unapplied_Cash_Posting_Details_Report">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Unapplied_Cash_Posting_Details_Report@2657d4dd]" started-at="2021-06-15T10:50:37 IST" name="launchBrowser" finished-at="2021-06-15T10:50:48 IST" duration-ms="10710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="clickReports()[pri:0, instance:testCases.Unapplied_Cash_Posting_Details_Report@2657d4dd]" started-at="2021-06-15T12:10:26 IST" name="clickReports" finished-at="2021-06-15T12:10:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReports -->
+        <test-method signature="clickunappliedcashpost()[pri:1, instance:testCases.Unapplied_Cash_Posting_Details_Report@2657d4dd]" started-at="2021-06-15T12:10:26 IST" name="clickunappliedcashpost" finished-at="2021-06-15T12:12:13 IST" duration-ms="106585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickunappliedcashpost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Unapplied_Cash_Posting_Details_Report@2657d4dd]" started-at="2021-06-15T12:12:13 IST" name="tearDown" finished-at="2021-06-15T12:12:15 IST" duration-ms="2204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Unapplied_Cash_Posting_Details_Report -->
+    </test> <!-- Unapplied Cash Posting Details Test cases -->
+  </suite> <!-- PIBS suite -->
+</testng-results>

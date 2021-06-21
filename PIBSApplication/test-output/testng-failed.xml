@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PIBS suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Client Pricing Schedule CPT Detail Test cases(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Client_PricingScheduleCPT_Detail">
+        <methods>
+          <include name="deleteuploadedCPT"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.Client_PricingScheduleCPT_Detail -->
+    </classes>
+  </test> <!-- Client Pricing Schedule CPT Detail Test cases(failed) -->
+</suite> <!-- Failed suite [PIBS suite] -->

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PIBS suite" verbose="2">
+
+
+	<test name="Client Contract Listing Test cases">
+		<classes>
+			<class name="testCases.Client_Contract_List">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Client Contract Details Test cases">
+		<classes>
+			<class name="testCases.Client_Contract_Details">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Client Pricing Schedule Listing Test cases">
+		<classes>
+			<class name="testCases.Client_PricingSchedule_List">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Client Pricing Schedule CLIN Detail Test cases">
+		<classes>
+			<class name="testCases.Client_PricingScheduleCLIN_Detail">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Client Pricing Schedule CPT Detail Test cases">
+		<classes>
+			<class name="testCases.Client_PricingScheduleCPT_Detail">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Medicare OWCP Factor Schedule List Test cases">
+		<classes>
+			<class name="testCases.MedicareOWCP_List">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Medicare Factor Schedule Detail Test cases">
+		<classes>
+			<class name="testCases.Medicare_Detail">
+			</class>
+		</classes>
+	</test>
+	
+		<test name="OWCP Factor Schedule Detail Test cases">
+		<classes>
+			<class name="testCases.OWCP_Detail">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Services List Test cases">
+		<classes>
+			<class name="testCases.Services_List">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Services Appointment Invoice Test cases">
+		<classes>
+			<class name="testCases.Services_AppInvoice_Detail">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Services Event Invoice Test cases">
+		<classes>
+			<class name="testCases.Services_EventInvoice_Detail">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Services Appointment Payment Test cases">
+		<classes>
+			<class name="testCases.Services_AppPayment_Detail">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Vendor Invoice Details Test cases">
+		<classes>
+			<class name="testCases.Vendor_Invoice_Details">
+			</class>
+		</classes>
+	</test>
+	
+		<test name="Cash Postings Listing Test cases">
+		<classes>
+			<class name="testCases.Cash_Postings_List">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Cash Postings Details Test cases">
+		<classes>
+			<class name="testCases.Cash_Postings_Details">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Unapplied Cash Postings Details Test cases">
+		<classes>
+			<class name="testCases.Unapplied_Cash_Posting_Details">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AR Aging Details Test cases">
+		<classes>
+			<class name="testCases.AR_Aging_Details_Report">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AR Aging Summary Test cases">
+		<classes>
+			<class name="testCases.AR_Aging_Summary_Report">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Adjustment Report Test cases">
+		<classes>
+			<class name="testCases.Adjustments_Report">
+			</class>
+		</classes>
+	</test>
+	
+	 <test name="Unbilling Services Test cases">
+		<classes>
+			<class name="testCases.Unbilling_Services_Report">
+			</class>
+		</classes>
+	</test>
+	
+	 <test name="Cash Posting Details Report Test cases">
+		<classes>
+			<class name="testCases.Cash_Posting_Report">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AP Aging Details Test cases">
+		<classes>
+			<class name="testCases.AP_Aging_Details_Report">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AP Aging Summary Test cases">
+		<classes>
+			<class name="testCases.AP_Aging_Summary_Report">
+			</class>
+		</classes>
+	</test>
+	 
+	<test name="Unapplied Cash Posting Details Test cases">
+		<classes>
+			<class name="testCases.Unapplied_Cash_Posting_Details_Report">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>TestNG:  Vendor Invoice Details Test cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Vendor Invoice Details Test cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>46/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 15 11:35:50 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>449 seconds (449957 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.DiagnosticMatchedViewAll()'><b>DiagnosticMatchedViewAll</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.DiagnosticMismatchdetails()'><b>DiagnosticMismatchdetails</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>3</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.DiagnosticMismatchedViewAll()'><b>DiagnosticMismatchedViewAll</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.Diagnosticdetails()'><b>Diagnosticdetails</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>3</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchDiagnosticMatchedInvoiceField()'><b>SearchDiagnosticMatchedInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchDiagnosticMisMatchedInvoiceField()'><b>SearchDiagnosticMisMatchedInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchDiagnosticMismatchedInvoiceField()'><b>SearchDiagnosticMismatchedInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchInvoiceField()'><b>SearchInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchMisMatchedInvoiceField()'><b>SearchMisMatchedInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchTravelInvoiceField()'><b>SearchTravelInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.SearchVaccineInvoiceField()'><b>SearchVaccineInvoiceField</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.TravelViewAll()'><b>TravelViewAll</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.Traveldetails()'><b>Traveldetails</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>2</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VaccineViewAll()'><b>VaccineViewAll</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.Vaccinedetails()'><b>Vaccinedetails</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>2</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyCancel()'><b>VerifyCancel</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>3</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyDiagnosticMatchedCancel()'><b>VerifyDiagnosticMatchedCancel</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyDiagnosticMatchedExpand()'><b>VerifyDiagnosticMatchedExpand</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyDiagnosticMatchedReject()'><b>VerifyDiagnosticMatchedReject</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyDiagnosticMismatchedCancel()'><b>VerifyDiagnosticMismatchedCancel</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>5</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyDiagnosticMismatchedExpand()'><b>VerifyDiagnosticMismatchedExpand</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyExpand()'><b>VerifyExpand</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>12</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyLink()'><b>VerifyLink</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyMismatchLink()'><b>VerifyMismatchLink</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyReject()'><b>VerifyReject</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyTravelCancel()'><b>VerifyTravelCancel</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyTravelExpand()'><b>VerifyTravelExpand</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>12</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyTravelReject()'><b>VerifyTravelReject</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyVaccineCancel()'><b>VerifyVaccineCancel</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyVaccineExpand()'><b>VerifyVaccineExpand</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>12</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.VerifyVaccineReject()'><b>VerifyVaccineReject</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.ViewAll()'><b>ViewAll</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>4</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.cashpostingdetails()'><b>cashpostingdetails</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>3</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.clickVendorInvoice()'><b>clickVendorInvoice</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>2</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortDiagnosticMatchedInvoiceGrid()'><b>sortDiagnosticMatchedInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>18</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortDiagnosticMisMatchedInvoiceGrid()'><b>sortDiagnosticMisMatchedInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>18</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortDiagnosticMismatchedInvoiceGrid()'><b>sortDiagnosticMismatchedInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortInvoiceGrid()'><b>sortInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>12</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortMisMatchedInvoiceGrid()'><b>sortMisMatchedInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>16</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortTravelInvoiceGrid()'><b>sortTravelInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>12</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.sortVaccineInvoiceGrid()'><b>sortVaccineInvoiceGrid</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>12</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.verifyDiagnosticMismatchSearch()'><b>verifyDiagnosticMismatchSearch</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>21</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.verifyDiagnosticSearch()'><b>verifyDiagnosticSearch</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>21</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.verifyShippingSearch()'><b>verifyShippingSearch</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>21</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.verifyTravelSearch()'><b>verifyTravelSearch</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>21</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.Vendor_Invoice_Details.verifyVaccineSearch()'><b>verifyVaccineSearch</b><br>Test class: testCases.Vendor_Invoice_Details</td>
+<td></td>
+<td>21</td>
+<td>testCases.Vendor_Invoice_Details@6f10d5b6</td></tr>
+</table><p>
+</body>
+</html>
